@@ -11,7 +11,7 @@ public:
     char *name;
     char level;
 
-    // Default Constructor  ||    Shallow Copy
+    // Default Constructor  ||Shallow Copy
     Hero()
     {
         name = new char[100];
@@ -30,7 +30,7 @@ public:
         this->health = health;
     }
 
-    // Copy constructor    ||    Deep Copy
+    // Copy constructor    ||Deep Copy
     Hero(Hero &temp)
     {
         char *ch = new char[strlen(temp.name) + 1];

@@ -8,7 +8,7 @@ for (let i = 0; i < a.length; i++) {
   if (a[i] === 0) {
     count++;
   } else {
-    result.push(a[i]);
+    result.push(a [i]);
   }
 }
 
