@@ -1,5 +1,5 @@
-let prompt = require("prompt-sync")();
-let n = Number(prompt("Enter a number: "));
+// let prompt = require("prompct-sync")();
+// let n = input("Enter a number: ")
 
 // for (let i = 1; i <= n; i++) {
 //   for (let j = 1; j <= n; j++) {
@@ -8,14 +8,30 @@ let n = Number(prompt("Enter a number: "));
 //   console.log();
 // }
 
+
+
+// same code but using function
+// function star(n){
+//   for (let i = 1; i <= n; i++) {
+//   for (let j = 1; j <= n; j++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log();
+// }
+// return n
+// }
+
+// console.log(star(6));
+
+
 // right angle triangle
 
-for (let i = 1; i <= n; i++) {
-  for (j = 1; j <= i; j++) {
-    process.stdout.write("* ");
-  }
-  console.log();
-}
+// for (let i = 1; i <= n; i++) {
+//   for (j = 1; j <= i; j++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log();
+// }
 
 // *
 // * *
@@ -91,16 +107,17 @@ for (let i = 1; i <= n; i++) {
 // }
 
 // V pattern
-for (let i = 1; i <= n; i++) {
-  for (let j = 1; j <= 2 * n - 1; j++) {
-    if (j === i || j === 2 * n - i) {
-      process.stdout.write("*");
-    } else {
-      process.stdout.write(" ");
-    }
-  }
-  console.log();
-}
+
+// for (let i = 1; i <= n; i++) {
+//   for (let j = 1; j <= 2 * n - 1; j++) {
+//     if (j === i || j === 2 * n - i) {
+//       process.stdout.write("*");
+//     } else {
+//       process.stdout.write(" ");
+//     }
+//   }
+//   console.log();
+// }
 
 // triangle * pattern piramid
 
